@@ -275,3 +275,145 @@ nav a:hover {
   }
 
 }
+
+
+/* =========================
+   Full Mobile Responsive
+========================= */
+
+@media (max-width: 768px) {
+
+  /* Header */
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 5%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  /* Hero */
+
+  .hero {
+    padding: 40px 5%;
+    min-height: auto;
+  }
+
+  .hero-content {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  /* Buttons */
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .buttons a,
+  .buttons button {
+    width: 100%;
+  }
+
+  /* Stats */
+
+  .stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Services */
+
+  .services {
+    padding: 50px 5%;
+  }
+
+  .services h2 {
+    font-size: 28px;
+  }
+
+  .service-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* Cards */
+
+  .card {
+    padding: 25px;
+  }
+
+  /* Reviews */
+
+  .reviews {
+    padding: 50px 5%;
+  }
+
+  .review-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* Payments */
+
+  .payments {
+    padding: 50px 5%;
+  }
+
+  .pay-box span {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 25px 10px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+}
+
+
+/* Extra Small Devices */
+
+@media (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .badge {
+    font-size: 12px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+}
